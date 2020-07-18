@@ -1,2 +1,4 @@
 # COVID-19-Social-Distancing-Monitoring-Program
-Project 5 of CS 211 (Object-Oriented Programming)
+Project 5 of CS 211 (Object-Oriented Programming).
+
+This project aims to evaluate whether a certain layout of a farmer's market is effective in preventing the spread of the virus. The layout is represented by a m x n Block of Cells. Each Cell stores its occupancy and visiting status. The Block allows an agent to move up, down, left, and right. The propagation feature examines the effectiveness of the layout by checking if there is any available route from entry to any exit using Depth-First Search. For simplicity, any Cell in the left-most column can be an entry and any Cell in the rightmost column can be an exit. An occupied Cell cannot be an entry or an exit. The propagation feature has both the recursive and iterative versions to demonstrate the concept of the recursive method. 
